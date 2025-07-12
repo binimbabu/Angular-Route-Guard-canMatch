@@ -1,6 +1,6 @@
 canMatch Guard
 
-Till Angular 14 each route path given in the app-routing.module.ts had to be unique as we cannot give multiple routes with same path. But using canMatch we can route from one route path to one component say componentA and different route path can be given for the same component componentA using certain conditions and the conditions can be controlled by canMatch route guard.
+Till Angular 14 each route path given in the app-routing.module.ts had to be unique as we cannot give multiple routes with same path. But using canMatch we can route from one route path to one component say componentA and same route path can be given for the same component componentA using certain conditions and the conditions can be controlled by canMatch route guard.
 Create 2 modules and routing files with the following commands
 
  ng g m user-home --routing
